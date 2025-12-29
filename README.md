@@ -19,7 +19,4 @@ The model automatically optimizes for the best RMSE.
 * **RMSE (Real Scale):** ~15,000 EUR (Typical performance)
 * **R2 Score:** ~0.68+
 
-## 🚀 How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/kongwu2347/Prediction-football-players-wages.git]
+
