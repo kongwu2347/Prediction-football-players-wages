@@ -1,6 +1,6 @@
 ## ⚽ Football Player Wage Prediction with MLOps
 
-![Workflow Status](https://github.com/kongwu2347/Prediction-football-players-wages/actions/workflows/run_model.yml/badge.svgh
+[![Workflow Status](https://github.com/kongwu2347/Prediction-football-players-wages/actions/workflows/run_model.yml/badge.svg)](https://github.com/kongwu2347/Prediction-football-players-wages/actions/workflows/run_model.yml)
 
 ## 📖 Project Overview
 This project predicts the wages of international football players using **XGBoost** and **automated hyperparameter tuning**. 
