@@ -16,7 +16,7 @@ Unlike standard notebooks, this repository is engineered as a **production-ready
 
 ## 📊 Key Results
 The model automatically optimizes for the best RMSE.
-* **RMSE (Real Scale):** ~15,000 EUR (Typical performance)
-* **R2 Score:** ~0.68+
+* **RMSE (Real Scale):** ~13,760 EUR (Typical performance)
+* **R2 Score:** ~0.66+
 
 
