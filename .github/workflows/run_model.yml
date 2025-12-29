@@ -1,0 +1,33 @@
+name: Run Football Wage Prediction Model
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  train-and-predict:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run training script
+      run: python main.py
+
+    - name: Upload result CSV
+      uses: actions/upload-artifact@v4
+      with:
+        name: prediction-submission
+        path: submission_optuna.csv
